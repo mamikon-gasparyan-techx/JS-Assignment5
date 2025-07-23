@@ -39,7 +39,7 @@ async function btn(includeHeader) {
   } catch (err) {
     uiText.textContent = "No Users";
   }
-};
+}
 
 btn1.addEventListener("click", () => btn(true));
 btn2.addEventListener("click", () => btn(false));
